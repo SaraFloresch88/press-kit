@@ -1,0 +1,83 @@
+    body {
+        margin: 0;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        display: flex;
+        color: #594735;
+        font-size: larger;
+        background-image: url(https://thumbs.dreamstime.com/b/seamless-music-background-cute-notes-light-eps-funny-wallpaper-chaotic-musical-theme-template-packaging-cover-187292972.jpg);
+        background-color: rgba(255, 255, 255, 0.3); /* capa blanca semitransparente */
+        background-blend-mode: lighten; /* mezcla el color con la imagen */
+
+    }
+    p {
+        background-color: antiquewhite;
+        display: inline-block;  
+        padding: 8px;           
+        border-radius: 5px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        margin: 5px 0;
+    }
+
+    h1{
+        background-color: antiquewhite;
+        display: inline-block;  
+        padding: 8px;           
+        border-radius: 5px;
+        margin: 5px 0;
+    }
+    h2{
+        background-color: antiquewhite;
+        display: inline-block;  
+        padding: 8px;           
+        border-radius: 5px;
+        margin: 5px 0;
+    }
+    h3{
+        background-color: antiquewhite;
+        display: inline-block;  
+        padding: 8px;           
+        border-radius: 5px;
+        margin: 5px 0;
+    }
+    /* Barra lateral */
+    nav {
+        width: 200px;
+        background-color: #594735;
+        color: antiquewhite;
+        height: 100vh; /* ocupa toda la altura */
+        position: fixed; /* se queda fija */
+        top: 0;
+        left: 0;
+        padding-top: 20px;
+    }
+
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    nav ul li {
+        margin: 15px 0;
+    }
+
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        padding: 8px;
+        display: block;
+    }
+
+    nav ul li a:hover {
+        background-color: antiquewhite;
+        color: #594735;
+    }
+
+    /* Contenido principal */
+    main {
+        margin-left: 200px; /* espacio para la barra lateral */
+        padding: 20px;
+    }
+
+    section {
+        margin-bottom: 20px;
+    }
